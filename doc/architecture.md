@@ -2,16 +2,16 @@ Sam's Mediterranean Grill
 
 Home Page
 -This page will contain Restaurant name
--Restuarant Location and contact Info
+-Restuarant location and contact info at bottom
 -Buttons to access other pages like menu, cart/order, and contact info
--Images of Food
+-Images of Food w/ descriptions
 
 Menu Page
--Once clicking Menu button the user will be redirected to the menu page
+-Once clicking menu button the user will be redirected to the menu page
 -Contain all the items with descriptions that are avaialable for purchase
 -A few pictures with descriptions
 -Prices per item
--Option to add to cart
+-Option to add to cart with a checkbox
 
 Cart/Order Page 
 -Page will display items and prices put in cart
@@ -19,10 +19,10 @@ Cart/Order Page
 -Will give your order has been placed and time when avialable for pickup
 
 Front end 
--User Will see and have many buttons to take them to diffrent locations like the menu or cart page
+-User will see and have many buttons to take them to diffrent locations like the menu,contact info, or cart page
 
 Back end 
--Code created that will call these actions and execute what is suppose to happen when buttons are clicked 
+-Code created that will execute and make the website run as intended 
 
 Website Model
 ![Website Model Image] (WebsiteModel.jpg)
