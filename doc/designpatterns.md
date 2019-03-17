@@ -1,4 +1,4 @@
-# Sam Meditteranean Grill Design Patterns
+# Sam's Meditteranean Grill Design Patterns
 
 # Command Pattern
 The first pattern that is a good fit for making a menu is the command pattern.  The command pattern allows resquests to be encapsulated as objects and this will be utilized when the customer is placing an order.  These orders will then be queued and an alloted message will pop up telling the customer when to come pick up their food.
