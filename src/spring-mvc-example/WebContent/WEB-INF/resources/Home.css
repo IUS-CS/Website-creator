@@ -1,0 +1,46 @@
+
+
+h1{
+    text-align: center;
+    color: black;
+    font-size: 2.5em;
+    font-family: sans-serif
+        
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+h2{
+    text-align: center;
+    font-size: 2.0em;
+}
+
+h4{
+   text-align: center;
+   font-size: 1.5em;
+   font-family: sans-serif
+}
+body{
+    background-color: lemonchiffon;
+}
+
+label{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+form{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}

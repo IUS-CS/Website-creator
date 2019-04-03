@@ -1,0 +1,16 @@
+h2{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+body{
+    background-color: lemonchiffon;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
