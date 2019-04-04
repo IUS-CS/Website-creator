@@ -1,0 +1,299 @@
+{
+	"id": "6481882e-efa2-4f49-89a1-c60b70766b8e",
+	"name": "TestCases",
+	"allTests": [],
+	"timestamp": "2019-04-04T07:19:34.490Z",
+	"collection_id": "60f56eed-37f7-4300-8737-dfed7187fca8",
+	"folder_id": 0,
+	"target_type": "collection",
+	"environment_id": "0",
+	"data": [],
+	"delay": 0,
+	"count": 1,
+	"collection": {
+		"id": "60f56eed-37f7-4300-8737-dfed7187fca8",
+		"name": "TestCases",
+		"description": null,
+		"auth": null,
+		"events": null,
+		"variables": null,
+		"order": [],
+		"folders_order": [
+			"1e32912f-3eb6-4274-a9f5-5304335f151a",
+			"2f206c4d-63a0-4f02-8c86-d6ca44991f4f",
+			"b7b800c4-f8b6-4044-9561-4ba76bb13b7b"
+		],
+		"owner": "0",
+		"favorite": false,
+		"type": "collection",
+		"depth": 0
+	},
+	"folder": null,
+	"environment": null,
+	"globals": null,
+	"results": [
+		{
+			"name": "http://localhost:8080/spring-mvc-example/",
+			"id": "0d7f9eb9-2d0a-483d-b004-070d857d139d",
+			"url": "http://localhost:8080/spring-mvc-example/",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Successful GET request for homePage": true,
+				"Failed GET request for homePage": false
+			},
+			"testPassFailCounts": {
+				"Successful GET request for homePage": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Failed GET request for homePage": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				"37"
+			],
+			"allTests": [
+				{
+					"Successful GET request for homePage": true,
+					"Failed GET request for homePage": false
+				}
+			],
+			"time": "37",
+			"totalRequestTime": "37",
+			"iterationResults": {}
+		},
+		{
+			"name": "http://localhost:8080/spring-mvc-example/orderOnline",
+			"id": "a1a3b02a-d1c4-4c41-a805-c0701846c9bd",
+			"url": "http://localhost:8080/spring-mvc-example/orderOnline",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Successful GET request for order onlinee": true,
+				"Failed GET request for order online": false
+			},
+			"testPassFailCounts": {
+				"Successful GET request for order onlinee": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Failed GET request for order online": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				"9"
+			],
+			"allTests": [
+				{
+					"Successful GET request for order onlinee": true,
+					"Failed GET request for order online": false
+				}
+			],
+			"time": "9",
+			"totalRequestTime": "9",
+			"iterationResults": {}
+		},
+		{
+			"name": "http://localhost:8080/spring-mvc-example/contact",
+			"id": "9275f4d9-cb59-42fc-bf4e-7df6879e3a43",
+			"url": "http://localhost:8080/spring-mvc-example/contact",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Successful GET request for contact page": true,
+				"Failed GET request for contact page": false
+			},
+			"testPassFailCounts": {
+				"Successful GET request for contact page": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Failed GET request for contact page": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				"7"
+			],
+			"allTests": [
+				{
+					"Successful GET request for contact page": true,
+					"Failed GET request for contact page": false
+				}
+			],
+			"time": "7",
+			"totalRequestTime": "7",
+			"iterationResults": {}
+		},
+		{
+			"name": "http://localhost:8080/spring-mvc-example/",
+			"id": "853d9f92-f2f9-43f7-b553-bf219b2d432c",
+			"url": "http://localhost:8080/spring-mvc-example/",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Successful GET request for homePage": true,
+				"Failed GET request for homePage": false
+			},
+			"testPassFailCounts": {
+				"Successful GET request for homePage": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Failed GET request for homePage": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				"4"
+			],
+			"allTests": [
+				{
+					"Successful GET request for homePage": true,
+					"Failed GET request for homePage": false
+				}
+			],
+			"time": "4",
+			"totalRequestTime": "4",
+			"iterationResults": {}
+		}
+	],
+	"totalPass": 4,
+	"totalFail": 4,
+	"totalTime": 57,
+	"lifecycle": "done",
+	"requests": [
+		{
+			"name": "http://localhost:8080/spring-mvc-example/",
+			"id": "0d7f9eb9-2d0a-483d-b004-070d857d139d",
+			"url": "http://localhost:8080/spring-mvc-example/",
+			"time": "2019-04-04T07:19:34.490Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Successful GET request for homePage": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Failed GET request for homePage": {
+					"pass": 0,
+					"fail": 1
+				}
+			}
+		},
+		{
+			"name": "http://localhost:8080/spring-mvc-example/orderOnline",
+			"id": "a1a3b02a-d1c4-4c41-a805-c0701846c9bd",
+			"url": "http://localhost:8080/spring-mvc-example/orderOnline",
+			"time": "2019-04-04T07:19:34.490Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Successful GET request for order onlinee": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Failed GET request for order online": {
+					"pass": 0,
+					"fail": 1
+				}
+			}
+		},
+		{
+			"name": "http://localhost:8080/spring-mvc-example/contact",
+			"id": "9275f4d9-cb59-42fc-bf4e-7df6879e3a43",
+			"url": "http://localhost:8080/spring-mvc-example/contact",
+			"time": "2019-04-04T07:19:34.490Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Successful GET request for contact page": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Failed GET request for contact page": {
+					"pass": 0,
+					"fail": 1
+				}
+			}
+		},
+		{
+			"name": "http://localhost:8080/spring-mvc-example/",
+			"id": "853d9f92-f2f9-43f7-b553-bf219b2d432c",
+			"url": "http://localhost:8080/spring-mvc-example/",
+			"time": "2019-04-04T07:19:34.490Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Successful GET request for homePage": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Failed GET request for homePage": {
+					"pass": 0,
+					"fail": 1
+				}
+			}
+		}
+	],
+	"synced": false
+}

@@ -1,0 +1,240 @@
+{
+	"info": {
+		"_postman_id": "60f56eed-37f7-4300-8737-dfed7187fca8",
+		"name": "TestCases",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "home",
+			"item": [
+				{
+					"name": "http://localhost:8080/spring-mvc-example/",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "be0dd3df-1ccc-4cba-b004-96253de7027e",
+								"exec": [
+									"pm.test(\"Successful GET request for homePage\", function () {\r",
+									"    pm.expect(pm.response.code).to.be.oneOf([200]);\r",
+									"});\r",
+									"\r",
+									"pm.test(\"Failed GET request for homePage\", function () {\r",
+									"    pm.expect(pm.response.code).to.be.oneOf([405]);\r",
+									"});\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"name\":\"Rayees\",\n\t\"Integer\": \"4541845135\"\n\n}"
+						},
+						"url": {
+							"raw": "http://localhost:8080/spring-mvc-example/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"spring-mvc-example",
+								""
+							]
+						},
+						"description": "GET request for homePage"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "order",
+			"item": [
+				{
+					"name": "http://localhost:8080/spring-mvc-example/orderOnline",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "be0dd3df-1ccc-4cba-b004-96253de7027e",
+								"exec": [
+									"pm.test(\"Successful GET request for order onlinee\", function () {\r",
+									"    pm.expect(pm.response.code).to.be.oneOf([200]);\r",
+									"});\r",
+									"\r",
+									"pm.test(\"Failed GET request for order online\", function () {\r",
+									"    pm.expect(pm.response.code).to.be.oneOf([405]);\r",
+									"});\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"name\":\"Rayees\",\n\t\"Integer\": \"4541845135\"\n\n}"
+						},
+						"url": {
+							"raw": "http://localhost:8080/spring-mvc-example/orderOnline",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"spring-mvc-example",
+								"orderOnline"
+							]
+						},
+						"description": "GET request for order page"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "contact",
+			"item": [
+				{
+					"name": "http://localhost:8080/spring-mvc-example/contact",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "be0dd3df-1ccc-4cba-b004-96253de7027e",
+								"exec": [
+									"pm.test(\"Successful GET request for contact page\", function () {\r",
+									"    pm.expect(pm.response.code).to.be.oneOf([200]);\r",
+									"});\r",
+									"\r",
+									"pm.test(\"Failed GET request for contact page\", function () {\r",
+									"    pm.expect(pm.response.code).to.be.oneOf([405]);\r",
+									"});\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"name\":\"Rayees\",\n\t\"Integer\": \"4541845135\"\n\n}"
+						},
+						"url": {
+							"raw": "http://localhost:8080/spring-mvc-example/contact",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"spring-mvc-example",
+								"contact"
+							]
+						},
+						"description": "GET request for contact page"
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8080/spring-mvc-example/",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "be0dd3df-1ccc-4cba-b004-96253de7027e",
+								"exec": [
+									"pm.test(\"Successful GET request for homePage\", function () {\r",
+									"    pm.expect(pm.response.code).to.be.oneOf([200]);\r",
+									"});\r",
+									"\r",
+									"pm.test(\"Failed GET request for homePage\", function () {\r",
+									"    pm.expect(pm.response.code).to.be.oneOf([405]);\r",
+									"});\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"name\":\"Rayees\",\n\t\"Integer\": \"4541845135\"\n\n}"
+						},
+						"url": {
+							"raw": "http://localhost:8080/spring-mvc-example/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"spring-mvc-example",
+								""
+							]
+						},
+						"description": "GET request for homePage"
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
