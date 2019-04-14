@@ -7,16 +7,18 @@
 <title>contact</title>
 </head>
 <body>
+    <body background="http://lerevecafe.com/graphics/global/background.jpg">
 <head>
-        <link rel="stylesheet" href = "C:\spring-mvc-example\WebContent\WEB-INF\resources\contact.css">
-    </head>
+    <style><%@include file="/WEB-INF/resources/contact.css"%></style>      
+</head>
     
-    <h4><a href="C:\spring-mvc-example\WebContent\WEB-INF\views\home.jsp">Home</a></h4> 
-    <h4><a href="C:\spring-mvc-example\WebContent\WEB-INF\views\orderOnline.jsp">Menu</a></h4>
+    <b><li><a href="home">Home</a></li>
+    <li><a href="orderOnline">Menu</a></li></b>
 
 <h1>Contact Info</h1>
+<h2>If you have any questions contact one of us!</h2>
 
-<h2> <a href="https://github.com/SRStoner"></a> Sam Stoner </h2>
+<h2> <a href="https://github.com/SRStoner"> Sam Stoner </a></h2>
 <h2> <a href="mailto:samstoner321@gmail.com"> samstoner321@gmail.com </a></h2><br />
 
 <h2> <a href="https://github.com/Madou138"> Mamadou Thiello </a></h2>
@@ -28,7 +30,7 @@
 
 
 <h2>
-phone:100-000-0000
+phone:(502)-000-0000
 </h2>
 
 <h2>
@@ -42,7 +44,7 @@ Louisville, Kentucky
 <h2>Hours of operation</h2>
 
 <h2>9:00 AM to 9:00 PM
-Open Everyday
+Everyday
 </h2>
 </body>
 </html>

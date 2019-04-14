@@ -3,8 +3,8 @@
 h1{
     text-align: center;
     color: black;
-    font-size: 2.5em;
-    font-family: sans-serif
+    font-size: 3.5em;
+    font-family: Baskerville,Baskerville Old Face,Hoefler Text,Garamond,Times New Roman,serif;
         
 }
 
@@ -15,26 +15,21 @@ h1{
   width: 50%;
 }
 
-h2{
-    text-align: center;
-    font-size: 2.0em;
+ul{
+    display:table; margin:0 auto;
 }
 
 h4{
    text-align: center;
-   font-size: 1.5em;
-   font-family: sans-serif
-}
-body{
-    background-color: lemonchiffon;
+   font-size: 2.5em;
+   font-family: Baskerville,Baskerville Old Face,Hoefler Text,Garamond,Times New Roman,serif;
 }
 
-label{
-    text-align: center;
-}
 
 h3{
     text-align: center;
+    font-size: 1.5em;
+    font-family: Baskerville,Baskerville Old Face,Hoefler Text,Garamond,Times New Roman,serif;
 }
 
 form{
