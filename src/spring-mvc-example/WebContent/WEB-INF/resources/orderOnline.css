@@ -17,7 +17,7 @@
 }
 	
 h2 {
-    font-family: sans-serif;
+    font-family: Baskerville,Baskerville Old Face,Hoefler Text,Garamond,Times New Roman,serif;
     font-size:2.0em;
     margin-bottom:0;
     text-align: center;
@@ -43,7 +43,7 @@ body {
 	font-family: sans-serif;
 }
 .menu-heading {
-	font-family: serif;	
+	font-family: Baskerville,Baskerville Old Face,Hoefler Text,Garamond,Times New Roman,serif;	
 	font-size:calc(1.5em + 1.5vw);
 	margin-bottom:0;
 	text-align:center;
@@ -69,6 +69,7 @@ body {
 }
 h1{
     text-align: center;
+    font-family: Baskerville,Baskerville Old Face,Hoefler Text,Garamond,Times New Roman,serif;
     
 }
 
