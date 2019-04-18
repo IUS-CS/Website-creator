@@ -18,44 +18,26 @@ import com.journaldev.spring.model.User;
 
 @Controller
 public class HomeController {
-
+	
 	/**
-	 * Simply selects the home view to render by returning its name.
+	 * The home controller handles the request to home page
+	 * 
+	 * @return the Home page
 	 */
-	
-	/*
-	@RequestMapping(value = "/", method = RequestMethod.GET)
-	public String home(Locale locale, Model model) {
-		System.out.println("Home Page Requested, locale = " + locale);
-		Date date = new Date();
-		DateFormat dateFormat = DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.LONG, locale);
-
-		String formattedDate = dateFormat.format(date);
-
-		model.addAttribute("serverTime", formattedDate);
-
-		return "home";
-	}
-	*/
-	
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String home() {
 		System.out.println("Home Page Requested");
 		return "home";
 	}
 	
-// example code from author
-	
-	/*   
-	@RequestMapping(value = "/user", method = RequestMethod.GET)
-	public String user(@Validated User user, Model model) {
-		System.out.println("User Page Requested");
-		model.addAttribute("userName", user.getUserName());
-		return "user";
-	}
-	
-	*/
-	
+	/**
+	 * 
+	 * The controller handles request to the order page
+	 * 
+	 * @param order
+	 * @param model
+	 * @return the order page
+	 */
 	@RequestMapping(value = "/orderOnline", method = RequestMethod.GET)
 	public String orderOnline(@Validated OrderOnline order,Model model) {
 		System.out.println("order page Requested");
@@ -74,27 +56,11 @@ public class HomeController {
 		return "orderPlaced";
 	}
 	
-	
-	// partially working
-	/*
-	@RequestMapping(value = "/orderOnline", method = RequestMethod.GET)
-	public ModelAndView orderOnline() {
-		System.out.println("orderOnline page Requested");
-		ModelAndView model1 = new ModelAndView("orderOnline");
-		
-		return model1;
-	}
-	
-	@RequestMapping(value = "/orderOnlineSummary", method = RequestMethod.POST)
-	public ModelAndView orderOnlineSummary(@RequestParam ("name") String name, @RequestParam("phoneNumber") Integer phoneNumber, @RequestParam("comments") String comments) {
-		System.out.println("summary page Requested");
-		ModelAndView model1 = new ModelAndView("OrderPlaced");
-		model1.addObject( "Name:" + name + "Phone Number :" + phoneNumber + "comments : "+ comments);
-		return model1;
-	}
-		
-		*/
-		
+	/**
+	 * The contact controller handles request to the contact page
+	 * 
+	 * @return the contact page
+	 */
 	@RequestMapping(value = "/contact", method = RequestMethod.GET)
 	public String contact() {
 		System.out.println("contact Page Requested");
