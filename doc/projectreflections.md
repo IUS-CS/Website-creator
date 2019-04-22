@@ -6,4 +6,5 @@ Doing this project has exposed me to new tools and framework that are very impor
 - Mamadou Thiello
 
 Started this project with a idea to learn something which is used in industry while using the knowledge of java gained in school over the years to further the use of knowledge. Working on this project gave me better understanding about MVC and REST. Using a framework for this project gave me glimpse inside the corporate projects. How the project are finished in sprints over the period of time, gathering the research material required to finish the project and learning new framework and IDE and the issues that developers face in day to day life. Learning to use spring MVC was hard and configuring was even harder, but I got better as I kept working and got the big picture of the framework. Also learnt some industry standards while researching about the spring framework. Got a good understanding about estimating time to get the project finished.
+
 •    Mohammad Rayees
